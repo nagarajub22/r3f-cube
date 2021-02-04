@@ -44,10 +44,12 @@ li {
 .panel {
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
 }
 
 .panel-left {
-  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
   background: #fff;
   border-right: 1px solid #fff;
   padding: 10px 0px;

@@ -5,7 +5,7 @@ export class App extends React.Component<{}, { type: string }> {
   constructor(props: any) {
     super(props);
     this.state = {
-      type: 'cube',
+      type: 'c_geometry',
     };
   }
 
